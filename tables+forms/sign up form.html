@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<h2>
+	SIGN UP!!!!
+</h2>
+<body>
+
+<form>
+	<label>First Name:<input type="text" name="First Name" placeholder="First Name" required=></label>
+	<label>Last Name:<input type="text" name="Last Name" placeholder="Last Name" required=><br></label>
+
+	<label>Male<input type="radio" name="Gender" value="Male"></label>
+	<label>Female<input type="radio" name="Gender" value="Female"></label>
+	<label>Other<input type="radio" name="Gender" value="Other"><br></label>
+
+	<label>email:<input name="username" type="email" placeholder="email" required></label>
+	<label>Password:<input name="password"type="password"placeholder="Password" pattern=".{5,10}" required title="Please use five to ten characters"><br></label>
+<!-- minlength="5"|| maxlength="10"  limits field to 10 max -->
+	<label>BirthDate
+	<select name="month">
+		<option>month</option>
+		<option>September</option>
+		<option>December</option>
+		<option>March</option>
+		<option>June</option>
+	</select>
+</label>
+	<select name="day">
+		<option>day</option>
+		<option>1</option>
+		<option>13</option>
+		<option>24</option>
+		<option>31</option>
+	</select>
+
+<select name="year">
+		<option>year</option>
+		<option>1990</option>
+		<option>1996</option>
+		<option>2002</option>
+		<option>2008</option><br>
+	</select>
+
+
+	<label>I agree to the terms and conditions<input type="checkbox" name="agreed" required><br></label>
+
+	<button>Submit</button>
+
+</form>
+
+</body>
+</html>
