@@ -122,7 +122,7 @@ label
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 p + #special::first-letter
 {
-	color: green
+	color: green;
 	font-size: 100px;
 
 }
